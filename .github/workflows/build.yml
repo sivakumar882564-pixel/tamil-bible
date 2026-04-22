@@ -17,7 +17,7 @@ jobs:
           java-version: '17'
 
       - name: Extract project
-        run: unzip TamilBibleAPK_v11.zip
+        run: unzip TamilBible_Android_v11.zip
 
       - name: Grant gradlew permission
         run: chmod +x TamilBibleAPK/gradlew
